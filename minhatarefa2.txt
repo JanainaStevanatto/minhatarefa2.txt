@@ -1,0 +1,28 @@
+Algoritmo "RotinaMatinal" 
+Var
+    porta_esta_fechada: logico
+Inicio
+    // Passo 1: Despertar
+    Escreva("Despertar")
+
+    // Passo 2: Levantar da cama
+    Escreva("Levantar da cama")
+
+    // Passo 3: Ir ao banheiro
+    Escreva("Ir ao banheiro")
+
+    // Passo 4: Se a porta estiver fechada, abrir
+    Se porta_esta_fechada Então
+       Escreva("Abrir a porta")
+    FimSe
+
+    // Passo 5: Escovar os dentes
+    Escreva("Escovar os dentes")
+
+    // Passo 6: Preparar o café da manhã
+    Escreva("Preparar o café da manhã")
+
+    // Passo 7: Tomar café da manhã
+    Escreva("Tomar café da manhã")
+    
+Fim do Algoritmo
